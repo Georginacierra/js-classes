@@ -14,3 +14,11 @@ const nombreArchivo = 'nombre-ejemplo-cool'
 console.log(nombreArchivo.split('-'))
 
 console.log(Math.random())
+
+const numero = 5
+console.log(numero)
+console.log(String(numero))
+
+const texto = '5'
+console.log(texto + 5)
+console.log(Number(texto) + 5)
