@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- muchas librerias se agregan en el header y luego tienen una funcion para veer que todo haya cargado -->
+  </head>
+  <script>
+    console.log('hola mundo');
+  </script>
+  <!-- podemos escribir en mi html pero es recomendable crear el doc -->
+  <body>
+    <div id="container" class="container example" data-example="example">
+      Hola mundo!
+      <!-- custom atributes data - atributo personalizado, nos sirve para pasar info-->
+    </div>
+
+    <div class="container" data-example="example"></div>
+    <!-- se pone all final para que cuando se ejecute el js, todos los elementos del html ya este cargado -->
+    <script src="./script.mjs"></script>
+  </body>
+</html>
