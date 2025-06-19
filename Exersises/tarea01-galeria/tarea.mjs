@@ -37,7 +37,7 @@ const allPhotos = (gallery) => {
     img.src= photo;
     img.alt='foto';
     img.style.width ='200px';
-    container.appendChild(img)
+    container.append(img)
   });
 };
 
