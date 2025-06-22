@@ -30,17 +30,21 @@ const photos = [
 console.log(photos);
 
 const allPhotos = (gallery) => {
-  const container = document.getElementById('container')
+  const container = document.getElementById('container');
 
-  gallery.forEach(photo => {
+  gallery.forEach((photo) => {
     const img = document.createElement('img');
-    img.src= photo;
-    img.alt='foto';
-    img.style.width ='200px';
-    container.append(img)
+    img.src = photo;
+    img.alt = 'foto';
+    img.style.width = '200px';
+    container.append(img);
   });
 };
 
-allPhotos(photos)
+allPhotos(photos);
+
+const container = document.getElementById('container');
+
+console.log(container);
 
 

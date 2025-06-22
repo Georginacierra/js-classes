@@ -1,0 +1,23 @@
+:root {
+  --spacing: 16px;
+  --menuWidth: 350px;
+  --doubleSpacing: calc(var(--spacing) * 2);
+  /* -- es una variable  */
+}
+
+.menu {
+  position: fixed;
+  top: var(--spacing);
+  left: var(--spacing);
+  width: var(--menuWidth);
+  height: calc(100% - var(--doubleSpacing));
+  /* al 100 por cierto le resta 32 px */
+  background-color: #f5f5f5;
+  border: 1px solid gray;
+  transition: left ease-in-out 0.25s;
+  /* a que propiedad quiero aplicar la transicion */
+}
+
+.hide {
+  left: calc(-1 * var(--menuWidth) - var(--spacing));
+}
